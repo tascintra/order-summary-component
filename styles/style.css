@@ -163,7 +163,7 @@ main {
   color: var(--g02);
   text-decoration: none;
   font-size: 0.95rem;
-  font-variation-settings: 'wght' 680;
+  font-variation-settings: 'wght' 880;
 }
 
 /* Text style */
@@ -175,8 +175,8 @@ main {
 
 .body-text {
   color: var(--g01);
-  font-size: 1.08rem;
-  font-variation-settings: 'wght' 580;
+  font-size: 1.05rem;
+  font-variation-settings: 'wght' 610;
   text-align: center;
 }
 
