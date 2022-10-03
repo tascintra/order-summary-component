@@ -36,6 +36,15 @@ p, h1, h2, h3, h4, h5, h6 {
   src: url(fonts/RedHatDisplay-VariableFont_wght.ttf) format('truetype');
 }
 
+:root {
+   --w-color: #fff;
+   --e01: #1c2e4d; /* Titles */
+   --e02: #382ae1; /* Button payment */
+   --e03: #4137b4; /* Change link */
+   --e04: #f8f9fe; /* Plan bg */
+   --g01: #878c9f; /* Body text */
+   --g02: #737f97; /* Cancel text */
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
