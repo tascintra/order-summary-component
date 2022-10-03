@@ -30,7 +30,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* Beginning to style */
+/* Style start */
 @font-face {
   font-family: 'Red Hat Display';
   src: url(../fonts/RedHatDisplay-VariableFont_wght.ttf) format('truetype');
@@ -107,6 +107,33 @@ body {
   border-radius: 10px;
 }
 
+.music-img {
+  margin-left: 25px;
+}
+
+.change-link {
+  text-decoration: underline;
+  color: var(--e03);
+  font-size: 0.9rem;
+  font-variation-settings: "wght" 980;
+  margin-left: auto;
+  margin-right: 25px;
+}
+
+/* Visited link color disabled */
+.change-link:visited, .cancel-btn:visited {
+  color: inherit;
+}
+
+.cancel-btn {
+  color: var(--g02);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-variation-settings: "wght" 680;
+}
+
+
+/* Text style */
 .main-title {
   color: var(--e01);
   font-size: 1.7rem;
@@ -124,23 +151,6 @@ body {
   color: var(--e01);
   font-size: 1.08rem;
   font-variation-settings: "wght" 880;
-}
-
-.music-img {
-  margin-left: 25px;
-}
-
-.change-link {
-  text-decoration: underline;
-  color: var(--e03);
-  font-size: 0.9rem;
-  font-variation-settings: "wght" 980;
-  margin-left: auto;
-  margin-right: 25px;
-}
-
-.change-link:visited {
-  color: inherit;
 }
 
 .attribution { 
