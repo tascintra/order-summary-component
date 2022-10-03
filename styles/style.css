@@ -41,11 +41,34 @@ p, h1, h2, h3, h4, h5, h6 {
   --e01: #1c2e4d; /* Text titles */
   --e02: #382ae1; /* Button payment */
   --e03: #4137b4; /* Change link */
-  --e04: #e0e8ff; /* Body bg */
-  --e05: #f8f9fe; /* Plan bg */
-  --e06: #fafaff; /* Payment text */
+  --e04: #766cf1; /* Active btn payment */
+  --e05: #e0e8ff; /* Body bg */
+  --e06: #f8f9fe; /* Plan bg */
+  --e07: #fafaff; /* Payment text */
   --g01: #878c9f; /* Body text */
   --g02: #737f97; /* Cancel text */
+
+  --e-font: 'Red Hat Display', Verdana, sans-serif;
+}
+
+body {
+  background: var(--e05);
+  font-family: var(--e-font);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.img-container {
+  max-width: 406px;
+}
+
+.content-container {
+  background-color: var(--w-color);
+  max-width: 406px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
