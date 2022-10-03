@@ -144,5 +144,12 @@ body {
 }
 
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+  font-size: 11px;
+  font-variation-settings: "wght" 610;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  font-variation-settings: "wght" 750;
+}
