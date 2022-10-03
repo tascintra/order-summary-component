@@ -94,6 +94,18 @@ body {
   border-radius: 10px;
 }
 
+.paymnent-btn {
+  background: var(--e02);
+  color: var(--e07);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-variation-settings: "wght" 680;
+  width: 100%;
+  padding: 15px 0px;
+  text-align: center;
+  border-radius: 10px;
+}
+
 .main-title {
   color: var(--e01);
   font-variation-settings: "wght" 680;
