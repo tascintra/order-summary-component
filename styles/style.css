@@ -73,9 +73,20 @@ body {
 
 .main-title {
   color: var(--e01);
-  font-size: 3rem;
-  font-variation-settings: "wght" 1000;
+  font-variation-settings: "wght" 680;
 }
+
+.body-text {
+  color: var(--g01);
+  font-variation-settings: "wght" 580;
+}
+
+.plan-title {
+  color: var(--e01);
+  font-variation-settings: "wght" 880;
+}
+
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
