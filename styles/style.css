@@ -133,8 +133,8 @@ body {
 .change-link {
   text-decoration: underline;
   color: var(--e03);
-  font-size: 0.95rem;
-  font-variation-settings: "wght" 880;
+  font-size: 0.9rem;
+  font-variation-settings: "wght" 980;
   margin-left: auto;
   margin-right: 25px;
 }
