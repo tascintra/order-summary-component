@@ -109,21 +109,35 @@ body {
 
 .main-title {
   color: var(--e01);
+  font-size: 1.7rem;
   font-variation-settings: "wght" 680;
 }
 
 .body-text {
   color: var(--g01);
-  font-variation-settings: "wght" 580;
   font-size: 1.08rem;
+  font-variation-settings: "wght" 580;
   text-align: center;
 }
 
 .plan-title {
   color: var(--e01);
+  font-size: 1.08rem;
   font-variation-settings: "wght" 880;
 }
 
+.music-img {
+  margin-left: 25px;
+}
+
+.change-link {
+  text-decoration: underline;
+  color: var(--e03);
+  font-size: 0.95rem;
+  font-variation-settings: "wght" 880;
+  margin-left: auto;
+  margin-right: 25px;
+}
 
 
 .attribution { font-size: 11px; text-align: center; }
