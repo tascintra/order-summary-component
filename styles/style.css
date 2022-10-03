@@ -62,8 +62,7 @@ h6 {
 }
 
 body {
-  background: var(--e05) url("../images/pattern-background-desktop.svg") no-repeat;
-  background-position: 0% -20%;
+  background: var(--e05) url("../images/pattern-background-desktop.svg") no-repeat 0% -20%;
   background-size: 100vw 60vh;
   font-family: var(--e-font);
   display: flex;
