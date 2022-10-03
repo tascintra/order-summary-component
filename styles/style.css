@@ -16,7 +16,7 @@ body {
   line-height: 1.5;
 }
 
-img, picture, video, canvas, svg {
+img, svg {
   display: block;
   max-width: 100%;
 }
@@ -38,10 +38,12 @@ p, h1, h2, h3, h4, h5, h6 {
 
 :root {
   --w-color: #fff;
-  --e01: #1c2e4d; /* Titles */
+  --e01: #1c2e4d; /* Text titles */
   --e02: #382ae1; /* Button payment */
   --e03: #4137b4; /* Change link */
-  --e04: #f8f9fe; /* Plan bg */
+  --e04: #e0e8ff; /* Body bg */
+  --e05: #f8f9fe; /* Plan bg */
+  --e06: #fafaff; /* Payment text */
   --g01: #878c9f; /* Body text */
   --g02: #737f97; /* Cancel text */
 }
