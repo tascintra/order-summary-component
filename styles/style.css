@@ -33,7 +33,7 @@ p, h1, h2, h3, h4, h5, h6 {
 /* Beginning to style */
 @font-face {
   font-family: 'Red Hat Display';
-  src: url(fonts/RedHatDisplay-VariableFont_wght.ttf) format('truetype');
+  src: url(../fonts/RedHatDisplay-VariableFont_wght.ttf) format('truetype');
 }
 
 :root {
@@ -48,7 +48,7 @@ p, h1, h2, h3, h4, h5, h6 {
   --g01: #878c9f; /* Body text */
   --g02: #737f97; /* Cancel text */
 
-  --e-font: 'Red Hat Display', Verdana, sans-serif;
+  --e-font: 'Red Hat Display' , Verdana, sans-serif;
 }
 
 body {
@@ -69,6 +69,12 @@ body {
 .content-container {
   background-color: var(--w-color);
   max-width: 406px;
+}
+
+.main-title {
+  color: var(--e01);
+  font-size: 3rem;
+  font-variation-settings: "wght" 1000;
 }
 
 .attribution { font-size: 11px; text-align: center; }
