@@ -31,7 +31,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 
 /* Beginning to style */
-
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url(fonts/RedHatDisplay-VariableFont_wght.ttf) format('truetype');
+}
 
 
 .attribution { font-size: 11px; text-align: center; }
