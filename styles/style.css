@@ -86,9 +86,10 @@ body {
 
 .plan {
   background: var(--e06);
-  padding: 30px 25px;
-  width: 315px;
+  width: 100%;
+  padding: 15px 0px;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
   gap: 20px;
   border-radius: 10px;
