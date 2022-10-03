@@ -58,6 +58,7 @@ h6 {
   --g01: #878c9f; /* Body text */
   --g02: #737f97; /* Cancel text */
   --s01: #392ae147; /* Payment button shadow */
+  --s02: #c6cff6; /* Main content shadow */
 
   --e-font: 'Red Hat Display', Verdana, sans-serif;
 }
@@ -72,6 +73,11 @@ body {
   align-items: center;
   min-height: 100vh;
   width: 100%;
+}
+
+main { 
+  box-shadow: 0px 20px 30px var(--s02);
+  border-radius: 20px;
 }
 
 .img-container {
