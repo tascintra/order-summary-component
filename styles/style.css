@@ -37,13 +37,13 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 :root {
-   --w-color: #fff;
-   --e01: #1c2e4d; /* Titles */
-   --e02: #382ae1; /* Button payment */
-   --e03: #4137b4; /* Change link */
-   --e04: #f8f9fe; /* Plan bg */
-   --g01: #878c9f; /* Body text */
-   --g02: #737f97; /* Cancel text */
+  --w-color: #fff;
+  --e01: #1c2e4d; /* Titles */
+  --e02: #382ae1; /* Button payment */
+  --e03: #4137b4; /* Change link */
+  --e04: #f8f9fe; /* Plan bg */
+  --g01: #878c9f; /* Body text */
+  --g02: #737f97; /* Cancel text */
 }
 
 .attribution { font-size: 11px; text-align: center; }
