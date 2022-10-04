@@ -13,7 +13,7 @@ This project was built using the following technologies.
   - Media Queries
 
 # Links
-- [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-order-summary-card-using-css-flexbox-PrnXWLFaFK)
+- [Solution in Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-order-summary-card-using-css-flexbox-PrnXWLFaFK)
 - [Live site access](https://order-summary-component-tascintra.vercel.app/)
 
 # Author
