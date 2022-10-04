@@ -63,18 +63,6 @@ h6 {
   --e-font: 'Red Hat Display', Verdana, sans-serif;
 }
 
-body {
-  background: var(--e05) url("../images/pattern-background-desktop.svg") no-repeat 0% -25%;
-  background-size: 100vw 60vh;
-  font-family: var(--e-font);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  width: 100%;
-}
-
 main { 
   box-shadow: 0px 20px 30px var(--s02);
   border-radius: 20px;
@@ -87,42 +75,68 @@ main {
 }
 
 /* Media query for small screens */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1300px) {
+  body {
+    background: var(--e05) url("../images/pattern-background-mobile.svg") no-repeat 0% -25%;
+    background-size: 100vw 60vh;
+    font-family: var(--e-font);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+
   .img-container {
     max-width: 327px;
   }
 
   
-.content-container {
-  background-color: var(--w-color);
-  max-width: 327px;
-  height: 407px;
-  padding: 30px 48px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 0px 0px 20px 20px;
-}
+  .content-container {
+    background-color: var(--w-color);
+    max-width: 327px;
+    height: 407px;
+    padding: 30px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+  }
+
+  
 }
 
 /* Media query for big screens */
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 1301px) {
+  body {
+    background: var(--e05) url("../images/pattern-background-desktop.svg") no-repeat 0% -25%;
+    background-size: 100vw 60vh;
+    font-family: var(--e-font);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+
   .img-container {
     max-width: 453px;
   }
 
-.content-container {
-  background-color: var(--w-color);
-  max-width: 453px;
-  height: 481px;
-  padding: 45px 48px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 0px 0px 20px 20px;
-}
+  .content-container {
+    background-color: var(--w-color);
+    max-width: 453px;
+    height: 481px;
+    padding: 45px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+  }
 }
 
 
