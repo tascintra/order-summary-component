@@ -165,6 +165,27 @@ main {
     margin-left: auto;
     margin-right: 15px;
   }
+
+  /* Buttons style */
+  .paymnent-btn {
+    background: var(--e02);
+    color: var(--e07);
+    box-shadow: 0px 15px 25px var(--s01);
+    text-decoration: none;
+    font-size: 0.91rem;
+    font-variation-settings: 'wght' 680;
+    width: 100%;
+    padding: 13px 0px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.2s;
+  }
+
+  /* Active effect for mobile devices */
+  .paymnent-btn:active {
+    background: var(--e04);
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 
 /* Media query for big screens */
@@ -249,23 +270,24 @@ main {
     margin-left: auto;
     margin-right: 25px;
   }
+
+  /* Buttons style */
+  .paymnent-btn {
+    background: var(--e02);
+    color: var(--e07);
+    box-shadow: 0px 15px 25px var(--s01);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-variation-settings: 'wght' 680;
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.2s;
+  }
 }
 
-/* Buttons style */
-.paymnent-btn {
-  background: var(--e02);
-  color: var(--e07);
-  box-shadow: 0px 15px 25px var(--s01);
-  text-decoration: none;
-  font-size: 0.95rem;
-  font-variation-settings: 'wght' 680;
-  width: 100%;
-  padding: 15px 0px;
-  text-align: center;
-  border-radius: 10px;
-  transition: 0.2s;
-}
-
+/* Button hover effect */
 .paymnent-btn:hover {
   background: var(--e04);
 }
